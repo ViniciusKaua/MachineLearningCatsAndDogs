@@ -1,0 +1,22 @@
+ANÁLISE ESTATÍSTICA - RANDOM FOREST
+Dados usados: acurácia 10-fold CV | 12 bases x 8 modelos | alfa = 0.05
+
+Teste de Friedman: estatística = 66.7682 | p-valor = 0.000000
+Há diferença estatística entre os modelos: SIM
+Distância crítica de Nemenyi (CD) = 3.031
+Pares com diferença significativa (|dif. de rank| > CD): 10
+  Gini (30) > Gini (10) (dif. de rank = 3.42)
+  Gini (100) > Gini (10) (dif. de rank = 5.62)
+  Entropy (30) > Gini (10) (dif. de rank = 3.67)
+  Entropy (100) > Gini (10) (dif. de rank = 5.54)
+  Gini (100) > Gini (20) (dif. de rank = 3.71)
+  Entropy (100) > Gini (20) (dif. de rank = 3.62)
+  Gini (30) > Entropy (10) (dif. de rank = 3.46)
+  Gini (100) > Entropy (10) (dif. de rank = 5.67)
+  Entropy (30) > Entropy (10) (dif. de rank = 3.71)
+  Entropy (100) > Entropy (10) (dif. de rank = 5.58)
+
+Critério de escolha: Friedman significativo -> melhor rank médio.
+MODELO ESCOLHIDO: Random Forest Gini (100)
+
+Obs.: a complexidade considerada é o nº de árvores (n_estimators).

@@ -1,0 +1,24 @@
+ANÁLISE ESTATÍSTICA - BAGGING
+Dados usados: acurácia 10-fold CV | 12 bases x 12 modelos | alfa = 0.05
+
+Teste de Friedman: estatística = 67.4148 | p-valor = 0.000000
+Há diferença estatística entre os modelos: SIM
+Distância crítica de Nemenyi (CD) = 4.810
+Pares com diferença significativa (|dif. de rank| > CD): 12
+  NB (10) > k-NN (10) (dif. de rank = 6.79)
+  NB (15) > k-NN (10) (dif. de rank = 6.71)
+  NB (20) > k-NN (10) (dif. de rank = 6.38)
+  DT (20) > k-NN (15) (dif. de rank = 4.88)
+  NB (10) > k-NN (15) (dif. de rank = 6.88)
+  NB (15) > k-NN (15) (dif. de rank = 6.79)
+  NB (20) > k-NN (15) (dif. de rank = 6.46)
+  DT (15) > k-NN (20) (dif. de rank = 4.83)
+  DT (20) > k-NN (20) (dif. de rank = 5.00)
+  NB (10) > k-NN (20) (dif. de rank = 7.00)
+  NB (15) > k-NN (20) (dif. de rank = 6.92)
+  NB (20) > k-NN (20) (dif. de rank = 6.58)
+
+Critério de escolha: Friedman significativo -> melhor rank médio.
+MODELO ESCOLHIDO: Bagging NB (10)
+
+Obs.: a complexidade usa pesos supostos (NB=1, DT=2, k-NN=3, MLP=4) x n_estimators.

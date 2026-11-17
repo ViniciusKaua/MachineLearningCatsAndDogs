@@ -1,0 +1,5 @@
+Comitê,Modelo escolhido,Coluna,n_classificadores
+Bagging,NB (10),Bagging [NB (10)],10
+Random Forest,Gini (100),Random Forest [Gini (100)],100
+Stacking,Classificadores (5),Stacking [Classificadores (5)],5
+Voting,Classificadores (10),Voting [Classificadores (10)],10

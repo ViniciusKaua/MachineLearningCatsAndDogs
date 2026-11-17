@@ -1,0 +1,9 @@
+Modelo,criterion,n_estimators,Acc_media,Rank_medio,Complexidade,Dif_rank_p_melhor,Equivalente_ao_melhor_rank,Escolhido
+Gini (100),gini,100,0.745,1.75,100,0.0,True,True
+Entropy (100),entropy,100,0.7471,1.8333,100,0.0833,True,False
+Entropy (30),entropy,30,0.73,3.7083,30,1.9583,True,False
+Gini (30),gini,30,0.731,3.9583,30,2.2083,True,False
+Entropy (20),entropy,20,0.7223,4.5,20,2.75,True,False
+Gini (20),gini,20,0.7185,5.4583,20,3.7083,False,False
+Gini (10),gini,10,0.6938,7.375,10,5.625,False,False
+Entropy (10),entropy,10,0.6958,7.4167,10,5.6667,False,False

@@ -1,0 +1,13 @@
+Modelo,Estimador,n_estimators,Acc_media,Rank_medio,Complexidade,Dif_rank_p_melhor,Equivalente_ao_melhor_rank,Escolhido
+NB (10),NB,10,0.7339,3.25,10,0.0,True,True
+NB (15),NB,15,0.7341,3.3333,15,0.0833,True,False
+NB (20),NB,20,0.7337,3.6667,20,0.4167,True,False
+DT (20),DT,20,0.7194,5.25,40,2.0,True,False
+DT (15),DT,15,0.7149,5.4167,30,2.1667,True,False
+MLP (10),MLP,10,0.717,5.8333,40,2.5833,True,False
+MLP (15),MLP,15,0.7074,6.2917,60,3.0417,True,False
+MLP (20),MLP,20,0.7047,7.1667,80,3.9167,True,False
+DT (10),DT,10,0.7038,7.375,20,4.125,True,False
+k-NN (10),k-NN,10,0.6599,10.0417,30,6.7917,False,False
+k-NN (15),k-NN,15,0.6584,10.125,45,6.875,False,False
+k-NN (20),k-NN,20,0.657,10.25,60,7.0,False,False

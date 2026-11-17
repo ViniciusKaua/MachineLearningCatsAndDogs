@@ -1,0 +1,13 @@
+,"Bagging
+NB (10)","Random Forest
+Gini (100)","Stacking
+Classificadores (5)","Voting
+Classificadores (10)"
+"Bagging
+NB (10)",1.0000000000,0.7784833688,0.0015739361,0.3032727950
+"Random Forest
+Gini (100)",0.7784833688,1.0000000000,0.0361763092,0.8587787670
+"Stacking
+Classificadores (5)",0.0015739361,0.0361763092,1.0000000000,0.2291035369
+"Voting
+Classificadores (10)",0.3032727950,0.8587787670,0.2291035369,1.0000000000

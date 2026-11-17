@@ -1,0 +1,5 @@
+Modelo,n_classificadores,Acc_media,Rank_medio,Complexidade,Dif_rank_p_melhor,Equivalente_ao_melhor_rank,Escolhido
+Classificadores (10),10,0.7495,1.75,10,0.0,True,True
+Classificadores (15),15,0.7504,1.7917,15,0.0417,True,False
+Classificadores (5),5,0.737,3.125,5,1.375,False,False
+Classificadores (20),20,0.7402,3.3333,20,1.5833,False,False

@@ -1,0 +1,11 @@
+ANÁLISE ESTATÍSTICA - STACKING
+Dados usados: acurácia 10-fold CV | 12 bases x 4 modelos | alfa = 0.05
+
+Teste de Friedman: estatística = 1.2353 | p-valor = 0.744552
+Há diferença estatística entre os modelos: NÃO
+Distância crítica de Nemenyi (CD) = 1.354
+
+Critério de escolha: Sem diferença estatística -> menor complexidade (menor nº de classificadores base); entre os de mesma complexidade, maior acurácia média.
+MODELO ESCOLHIDO: Stacking Classificadores (5)
+
+Obs.: a complexidade considerada é o nº de classificadores base do comitê.

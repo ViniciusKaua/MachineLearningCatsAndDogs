@@ -1,0 +1,15 @@
+ANÁLISE ESTATÍSTICA - STACKING
+Dados usados: acurácia 10-fold CV | 12 bases x 4 modelos | alfa = 0.05
+
+Teste de Friedman: estatística = 16.0086 | p-valor = 0.001129
+Há diferença estatística entre os modelos: SIM
+Distância crítica de Nemenyi (CD) = 1.354
+Pares com diferença significativa (|dif. de rank| > CD): 3
+  Classificadores (10) > Classificadores (5) (dif. de rank = 1.38)
+  Classificadores (10) > Classificadores (20) (dif. de rank = 1.58)
+  Classificadores (15) > Classificadores (20) (dif. de rank = 1.54)
+
+Critério de escolha: Friedman significativo -> melhor rank médio.
+MODELO ESCOLHIDO: Voting Classificadores (10)
+
+Obs.: a complexidade considerada é o nº de classificadores base do comitê.

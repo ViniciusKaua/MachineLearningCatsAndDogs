@@ -1,0 +1,11 @@
+Conf.,Acc,criterion,max_depth
+1,0.6625,gini,10
+2,0.6613,gini,15
+3,0.66,gini,12
+4,0.6587,gini,14
+5,0.6538,gini,13
+6,0.6537,gini,9
+7,0.6537,entropy,12
+8,0.6537,log_loss,12
+9,0.6525,entropy,15
+10,0.6525,log_loss,15

@@ -1,0 +1,20 @@
+ANÁLISE ESTATÍSTICA - COMPARAÇÃO ENTRE OS 4 COMITÊS
+Dados usados: acurácia 10-fold CV | 12 bases x 4 modelos | alfa = 0.05
+
+Modelos escolhidos em cada etapa anterior:
+  - Bagging: NB (10)
+  - Random Forest: Gini (100)
+  - Stacking: Classificadores (5)
+  - Voting: Classificadores (10)
+
+Teste de Friedman: estatística = 14.6667 | p-valor = 0.002125
+Há diferença estatística entre os modelos: SIM
+Distância crítica de Nemenyi (CD) = 1.354
+Pares com diferença significativa (|dif. de rank| > CD): 2
+  Stacking [Classificadores (5)] > Bagging [NB (10)] (dif. de rank = 1.92)
+  Stacking [Classificadores (5)] > Random Forest [Gini (100)] (dif. de rank = 1.42)
+
+Critério de escolha: Friedman significativo -> melhor rank médio.
+MELHOR MODELO GERAL: Stacking [Classificadores (5)]
+
+Obs.: a complexidade considerada é o nº de classificadores base do comitê.

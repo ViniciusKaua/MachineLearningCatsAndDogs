@@ -1,0 +1,21 @@
+TESTES ESTATÍSTICOS - STACKING
+Dados usados: acurácia 10-fold CV | 12 bases x 4 modelos | alfa = 0.05
+
+Teste de Friedman: estatística = 1.0513 | p-valor = 0.788846
+Há diferença estatística entre os modelos: NÃO
+Distância crítica de Nemenyi (CD) = 1.354
+
+Rank médio (1 = melhor):
+Classificadores (5)     2.3333
+Classificadores (10)    2.3333
+Classificadores (20)    2.5417
+Classificadores (15)    2.7917
+
+Teste Nemenyi (pós-hoc):
+                      Classificadores (5)  Classificadores (10)  Classificadores (15)  Classificadores (20)
+Classificadores (5)          1.0000000000          1.0000000000          0.8205715245          0.9790710012
+Classificadores (10)         1.0000000000          1.0000000000          0.8205715245          0.9790710012
+Classificadores (15)         0.8205715245          0.8205715245          1.0000000000          0.9647412018
+Classificadores (20)         0.9790710012          0.9790710012          0.9647412018          1.0000000000
+
+Obs.: Friedman não significativo; a matriz do Nemenyi é apenas informativa.

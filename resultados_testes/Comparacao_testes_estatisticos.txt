@@ -1,0 +1,19 @@
+TESTES ESTATÍSTICOS - COMPARAÇÃO FINAL ENTRE OS COMITÊS
+Dados usados: acurácia 10-fold CV | 12 bases x 4 modelos | alfa = 0.05
+
+Teste de Friedman: estatística = 14.6667 | p-valor = 0.002125
+Há diferença estatística entre os modelos: SIM
+Distância crítica de Nemenyi (CD) = 1.354
+
+Rank médio (1 = melhor):
+Stacking Classificadores (5)    1.4167
+Voting Classificadores (10)     2.4167
+Random Forest Gini (100)        2.8333
+Bagging NB (10)                 3.3333
+
+Teste Nemenyi (pós-hoc):
+                              Bagging NB (10)  Random Forest Gini (100)  Stacking Classificadores (5)  Voting Classificadores (10)
+Bagging NB (10)                  1.0000000000              0.7784833688                  0.0015739361                 0.3032727950
+Random Forest Gini (100)         0.7784833688              1.0000000000                  0.0361763092                 0.8587787670
+Stacking Classificadores (5)     0.0015739361              0.0361763092                  1.0000000000                 0.2291035369
+Voting Classificadores (10)      0.3032727950              0.8587787670                  0.2291035369                 1.0000000000

@@ -1,0 +1,16 @@
+#,hidden_layer_sizes,activation,solver,learning_rate_init,max_iter,Acc
+1,"(16,)",logistic,sgd,0.01,1000,0.7938
+2,"(32,)",relu,adam,0.0001,1500,0.7938
+3,"(32,)",relu,adam,0.0001,2000,0.7938
+4,"(32,)",relu,adam,0.01,500,0.7925
+5,"(32,)",relu,adam,0.01,1000,0.7925
+6,"(32,)",relu,adam,0.01,1500,0.7925
+7,"(32,)",relu,adam,0.01,2000,0.7925
+8,"(32,)",relu,adam,0.0001,1000,0.7925
+9,"(64,)",logistic,adam,0.01,500,0.79
+10,"(64,)",logistic,adam,0.01,1000,0.79
+11,"(64,)",logistic,adam,0.01,1500,0.79
+12,"(64,)",logistic,adam,0.01,2000,0.79
+13,"(16,)",logistic,sgd,0.01,1500,0.7887
+14,"(16,)",logistic,sgd,0.01,2000,0.7887
+15,"(16,)",logistic,sgd,0.01,500,0.7875

@@ -1,0 +1,5 @@
+Modelo,Comite,Modelo_escolhido,n_classificadores,Acc_media,Desv_Pad,Rank_medio,Complexidade,Dif_rank_p_melhor,Equivalente_ao_melhor_rank,Escolhido
+Stacking [Classificadores (5)],Stacking,Classificadores (5),5,0.7636,0.0263,1.4167,5,0.0,True,True
+Voting [Classificadores (10)],Voting,Classificadores (10),10,0.7495,0.0196,2.4167,10,1.0,True,False
+Random Forest [Gini (100)],Random Forest,Gini (100),100,0.745,0.0262,2.8333,100,1.4167,False,False
+Bagging [NB (10)],Bagging,NB (10),10,0.7339,0.0179,3.3333,10,1.9167,False,False
